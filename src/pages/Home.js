@@ -46,7 +46,7 @@ const Header = () => {
 const SlideShow = () => {
     const images = [iceb, ufop, imobilis];
     const [index, setIndex] = useState(0);
-    const delay = 2500;
+    const delay = 3000;
     const timeoutRef = useRef(null);
 
     const resetTimeout = () => {
@@ -57,8 +57,7 @@ const SlideShow = () => {
 
     React.useEffect(() => {
         resetTimeout();
-        timeoutRef.current = setTimeout(
-          () =>
+        timeoutRef.current = setTimeout(() =>
             setIndex((prevIndex) =>
               prevIndex === images.length - 1 ? 0 : prevIndex + 1
             ),

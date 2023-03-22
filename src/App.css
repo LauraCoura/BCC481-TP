@@ -300,3 +300,80 @@ button{
   text-decoration: none;
   color: black;
 }
+
+@media screen and (max-width: 800px){
+  .footer{
+    background-color: #09141D;
+    height: 80vh;
+    width: '100%';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 10vh;
+  }
+
+  .cardQuick{
+    background-color: #ebebeb;
+    height: 150vh;
+    width: 65%;
+    border-radius: 5px;
+    margin-top: 5vh;
+    margin-right: 2vw;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .rowButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardButtons{
+    background-color: #ebebeb;
+    margin-top: 5vh;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 2vw;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .cardNews{
+    background-color: #ebebeb;
+    border-radius: 5px;
+    margin-top: 5vh;
+    padding-bottom: 3vh;
+    height: 80vh;
+    width: 65vh;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .buttonNews{
+    border-radius: 20px;
+    background-color: #194F7E;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+    width: 30vw;
+    height: 10vh;
+    border: none;
+    align-self: center;
+    margin-top: 2vh;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
